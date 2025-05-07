@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>ДизайнПро</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta
+            content="графический дизайн, UI/UX, Figma, шаблоны, интерфейсы, галерея работ, дизайн-тренды, брендинг, обучение дизайну, курсы по дизайну, советы для дизайнеров, платформа для дизайнеров"
+            name="keywords"
+        />
+        <meta
+            content="Онлайн-платформа для дизайнеров: статьи, курсы, галерея работ, шаблоны и практические советы. Все о графическом дизайне, UI/UX, Figma и современных трендах. Подходит как новичкам, так и профессионалам."
+            name="description"
+        />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Montserrat:wght@200;400;600&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar start -->
+        <div
+            class="container-fluid border-bottom bg-light wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div
+                class="container topbar bg-primary d-none d-lg-block py-2"
+                style="border-radius: 0 40px"
+            >
+                <div class="d-flex justify-content-between">
+                    <div class="top-info ps-2">
+                        <small class="me-3"
+                            ><i
+                                class="fas fa-map-marker-alt me-2 text-secondary"
+                            ></i>
+                            <a href="#" class="text-white"
+                                >ул. Зенкова 24, Алматы 050000, Казахстан</a
+                            ></small
+                        >
+                        <small class="me-3"
+                            ><i class="fas fa-envelope me-2 text-secondary"></i
+                            ><a href="#" class="text-white"
+                                >design_pro@gmail.com</a
+                            ></small
+                        >
+                    </div>
+                </div>
+            </div>
+            <div class="container px-0">
+                <nav class="navbar navbar-light navbar-expand-xl py-3">
+                    <a href="index.html" class="navbar-brand"
+                        ><h1 class="text-primary display-6">
+                            Дизайн<span class="text-secondary">Про</span>
+                        </h1></a
+                    >
+                    <button
+                        class="navbar-toggler py-2 px-3"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                    >
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto">
+                            <a href="index.html" class="nav-item nav-link"
+                                >Главная</a
+                            >
+                            <a
+                                href="about.html"
+                                class="nav-item nav-link active"
+                                >О платформе</a
+                            >
+                            <a href="service.html" class="nav-item nav-link"
+                                >Разделы</a
+                            >
+                            <a href="testimonial.html" class="nav-item nav-link"
+                                >Отзывы</a
+                            >
+                            <a href="contact.html" class="nav-item nav-link"
+                                >Контакты</a
+                            >
+                        </div>
+                        <div class="d-flex me-4">
+                            <div
+                                id="phone-tada"
+                                class="d-flex align-items-center justify-content-center"
+                            >
+                                <a
+                                    href=""
+                                    class="position-relative wow tada"
+                                    data-wow-delay=".9s"
+                                >
+                                    <i
+                                        class="fa fa-phone-alt text-primary fa-2x me-4"
+                                    ></i>
+                                    <div
+                                        class="position-absolute"
+                                        style="top: -7px; left: 20px"
+                                    >
+                                        <span
+                                            ><i
+                                                class="fa fa-comment-dots text-secondary"
+                                            ></i
+                                        ></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div
+                                class="d-flex flex-column pe-3 border-end border-primary"
+                            >
+                                <span class="text-primary">Есть вопросы?</span>
+                                <a href="tel:77775259885"
+                                    ><span class="text-secondary"
+                                        >Звоните: +77775259885</span
+                                    ></a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+        <!-- Page Header Start -->
+        <div
+            class="container-fluid page-header py-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container text-center py-5">
+                <h1 class="display-2 text-white mb-4">О платформе</h1>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb justify-content-center mb-0">
+                        <li class="breadcrumb-item">
+                            <a href="index.html">Главная</a>
+                        </li>
+                        <li
+                            class="breadcrumb-item text-white"
+                            aria-current="page"
+                        >
+                            О платформе
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+        <!-- Page Header End -->
+
+        <!-- About Start -->
+        <div class="container-fluid py-5 about">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="video border"></div>
+                    </div>
+                    <div class="col-lg-7 wow fadeIn" data-wow-delay="0.3s">
+                        <h4
+                            class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius"
+                        >
+                            О платформе
+                        </h4>
+                        <h1 class="text-dark mb-4 display-5">
+                            Ваше пространство для развития в дизайне
+                        </h1>
+                        <p class="text-dark mb-4">
+                            Наша платформа создана для дизайнеров любого уровня
+                            — от начинающих до профессионалов. Мы предлагаем
+                            статьи, обучающие курсы, галереи работ, шаблоны и
+                            полезные советы по современному графическому
+                            дизайну, UI/UX, Figma и разработке интерфейсов.
+                            Основное внимание уделяется актуальным
+                            дизайн-трендам, техникам брендинга и улучшению
+                            визуального восприятия продуктов. Мы стремимся дать
+                            вам инструменты и вдохновение для создания
+                            качественных проектов и профессионального роста.
+                        </p>
+                        <div class="row mb-4">
+                            <div class="col-lg-6">
+                                <h6 class="mb-3">
+                                    <i class="fas fa-check-circle me-2"></i>
+                                    Актуальные дизайн-тренды
+                                </h6>
+                                <h6 class="mb-3">
+                                    <i
+                                        class="fas fa-check-circle me-2 text-primary"
+                                    ></i>
+                                    Практические курсы по Figma
+                                </h6>
+                                <h6 class="mb-3">
+                                    <i
+                                        class="fas fa-check-circle me-2 text-secondary"
+                                    ></i>
+                                    Галереи вдохновляющих работ
+                                </h6>
+                            </div>
+                            <div class="col-lg-6">
+                                <h6 class="mb-3">
+                                    <i class="fas fa-check-circle me-2"></i>
+                                    Поддержка новичков и профи
+                                </h6>
+                                <h6 class="mb-3">
+                                    <i
+                                        class="fas fa-check-circle me-2 text-primary"
+                                    ></i>
+                                    Инструменты для брендинга
+                                </h6>
+                                <h6>
+                                    <i
+                                        class="fas fa-check-circle me-2 text-secondary"
+                                    ></i>
+                                    Советы по UI/UX и интерфейсам
+                                </h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Video -->
+        <div
+            class="modal fade"
+            id="videoModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                            Обзор дизайнерской платформы
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- 16:9 aspect ratio -->
+                        <div class="ratio ratio-16x9">
+                            <iframe
+                                class="embed-responsive-item"
+                                src=""
+                                id="video"
+                                allowfullscreen
+                                allowscriptaccess="always"
+                                allow="autoplay"
+                            ></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Team Start-->
+        <div class="container-fluid team py-5">
+            <div class="container py-5">
+                <div
+                    class="mx-auto text-center wow fadeIn"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <h4
+                        class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius"
+                    >
+                        Наша команда
+                    </h4>
+                    <h1 class="mb-2 display-3">
+                        Познакомьтесь с нашей командой дизайнеров
+                    </h1>
+                    <p class="mb-5">
+                        Команда платформы состоит из увлечённых и опытных
+                        специалистов в области графического дизайна, UI/UX и
+                        визуального брендинга. Мы объединяем опыт, креативность
+                        и любовь к современным инструментам, таким как Figma,
+                        чтобы делиться с вами лучшими практиками. Каждый член
+                        команды стремится поддерживать дизайнеров на всех этапах
+                        развития — от первых шагов до профессионального роста.
+                    </p>
+                </div>
+                <div class="row g-5 justify-content-center">
+                    <div
+                        class="col-md-6 col-lg-4 col-xl-3 wow fadeIn"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="team-item border border-primary img-border-radius overflow-hidden"
+                        >
+                            <img
+                                src="img/team-1.jpg"
+                                class="img-fluid w-100"
+                                alt=""
+                            />
+                            <div class="team-content text-center py-3">
+                                <h4 class="text-primary">Алексей Смирнов</h4>
+                                <p class="text-muted mb-2">
+                                    Специалист по графическому дизайну
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 col-xl-3 wow fadeIn"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="team-item border border-primary img-border-radius overflow-hidden"
+                        >
+                            <img
+                                src="img/team-2.jpg"
+                                class="img-fluid w-100"
+                                alt=""
+                            />
+                            <div class="team-content text-center py-3">
+                                <h4 class="text-primary">Елена Васильева</h4>
+                                <p class="text-muted mb-2">UI/UX дизайнер</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 col-xl-3 wow fadeIn"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="team-item border border-primary img-border-radius overflow-hidden"
+                        >
+                            <img
+                                src="img/team-3.jpg"
+                                class="img-fluid w-100"
+                                alt=""
+                            />
+                            <div class="team-content text-center py-3">
+                                <h4 class="text-primary">Игорь Тарасов</h4>
+                                <p class="text-muted mb-2">
+                                    Эксперт по Figma и интерфейсам
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-md-6 col-lg-4 col-xl-3 wow fadeIn"
+                        data-wow-delay="0.7s"
+                    >
+                        <div
+                            class="team-item border border-primary img-border-radius overflow-hidden"
+                        >
+                            <img
+                                src="img/team-4.jpg"
+                                class="img-fluid w-100"
+                                alt=""
+                            />
+                            <div class="team-content text-center py-3">
+                                <h4 class="text-primary">Мария Кузнецова</h4>
+                                <p class="text-muted mb-2">
+                                    Специалист по брендингу и визуальным
+                                    концепциям
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End-->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid footer py-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="footer-item">
+                            <h2 class="fw-bold mb-3">
+                                <span class="text-primary mb-0">Дизайн</span
+                                ><span class="text-secondary">Про</span>
+                            </h2>
+                            <p class="mb-4">
+                                Спасибо, что посетили наш ресурс. Наша миссия —
+                                предоставить дизайнерам все необходимые
+                                инструменты и знания для профессионального
+                                роста. Мы делаем акцент на современных подходах
+                                в UI/UX, Figma, графическом дизайне и брендинге,
+                                чтобы вы могли создавать уникальные и
+                                функциональные интерфейсы.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="footer-item">
+                            <div
+                                class="d-flex flex-column p-4 ps-5 text-dark border border-primary"
+                                style="border-radius: 0"
+                            >
+                                <p>Понедельник: 8:00 – 17:00</p>
+                                <p>Вторник: 8:00 – 17:00</p>
+                                <p>Среда: 8:00 – 17:00</p>
+                                <p>Четверг: 8:00 – 17:00</p>
+                                <p>Пятница: 8:00 – 17:00</p>
+                                <p>Суббота: 8:00 – 17:00</p>
+                                <p class="mb-0">Воскресенье: выходной</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="footer-item">
+                            <h4
+                                class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius"
+                            >
+                                НАШ АДРЕС
+                            </h4>
+                            <div class="d-flex flex-column align-items-start">
+                                <a href="" class="text-body mb-4"
+                                    ><i
+                                        class="fa fa-map-marker-alt text-primary me-3"
+                                    ></i>
+                                    ул. Зенкова 24, Алматы 050000
+                                </a>
+                                <a href="tel:+1000000000" class="text-body mb-4"
+                                    ><i
+                                        class="fa fa-phone-alt text-primary me-3"
+                                    ></i
+                                    >+77775259885</a
+                                >
+                                <a
+                                    href="mailto:info@businessconsult.com"
+                                    class="text-body"
+                                    ><i
+                                        class="fa fa-envelope text-primary me-3"
+                                    ></i>
+                                    design_pro@gmail.com</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="footer-item">
+                            <h4
+                                class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius"
+                            >
+                                ССЫЛКИ
+                            </h4>
+                            <div class="d-flex flex-column align-items-start">
+                                <a href="index.html" class="text-body mb-4">
+                                    Главная
+                                </a>
+                                <a
+                                    href="terms-of-use.html"
+                                    class="text-body mb-4"
+                                    >Условия использования</a
+                                >
+                                <a href="privacy-policy.html" class="text-body"
+                                    >Политика конфиденциальности
+                                </a>
+                                <a href="cookie-policy.html" class="text-body"
+                                    >Политика использования файлов cookie
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Согласие на использование cookie
+                </h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Этот сайт использует cookie-файлы для обеспечения наилучшего
+                    пользовательского опыта и более релевантного контента.
+                    <a href="cookie-policy.html">Подробнее...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-primary border-3 border-primary rounded-circle back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>

@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>ДизайнПро</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta
+            content="графический дизайн, UI/UX, Figma, шаблоны, интерфейсы, галерея работ, дизайн-тренды, брендинг, обучение дизайну, курсы по дизайну, советы для дизайнеров, платформа для дизайнеров"
+            name="keywords"
+        />
+        <meta
+            content="Онлайн-платформа для дизайнеров: статьи, курсы, галерея работ, шаблоны и практические советы. Все о графическом дизайне, UI/UX, Figma и современных трендах. Подходит как новичкам, так и профессионалам."
+            name="description"
+        />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600;700&family=Montserrat:wght@200;400;600&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <link rel="shortcut icon" href="img/logo.png" type="image/x-icon" />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Navbar start -->
+        <div
+            class="container-fluid border-bottom bg-light wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div
+                class="container topbar bg-primary d-none d-lg-block py-2"
+                style="border-radius: 0 40px"
+            >
+                <div class="d-flex justify-content-between">
+                    <div class="top-info ps-2">
+                        <small class="me-3"
+                            ><i
+                                class="fas fa-map-marker-alt me-2 text-secondary"
+                            ></i>
+                            <a href="#" class="text-white"
+                                >ул. Зенкова 24, Алматы 050000, Казахстан</a
+                            ></small
+                        >
+                        <small class="me-3"
+                            ><i class="fas fa-envelope me-2 text-secondary"></i
+                            ><a href="#" class="text-white"
+                                >design_pro@gmail.com</a
+                            ></small
+                        >
+                    </div>
+                </div>
+            </div>
+            <div class="container px-0">
+                <nav class="navbar navbar-light navbar-expand-xl py-3">
+                    <a href="index.html" class="navbar-brand"
+                        ><h1 class="text-primary display-6">
+                            Дизайн<span class="text-secondary">Про</span>
+                        </h1></a
+                    >
+                    <button
+                        class="navbar-toggler py-2 px-3"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarCollapse"
+                    >
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto">
+                            <a
+                                href="index.html"
+                                class="nav-item nav-link active"
+                                >Главная</a
+                            >
+                            <a href="about.html" class="nav-item nav-link"
+                                >О платформе</a
+                            >
+                            <a href="service.html" class="nav-item nav-link"
+                                >Разделы</a
+                            >
+                            <a href="testimonial.html" class="nav-item nav-link"
+                                >Отзывы</a
+                            >
+                            <a href="contact.html" class="nav-item nav-link"
+                                >Контакты</a
+                            >
+                        </div>
+                        <div class="d-flex me-4">
+                            <div
+                                id="phone-tada"
+                                class="d-flex align-items-center justify-content-center"
+                            >
+                                <a
+                                    href=""
+                                    class="position-relative wow tada"
+                                    data-wow-delay=".9s"
+                                >
+                                    <i
+                                        class="fa fa-phone-alt text-primary fa-2x me-4"
+                                    ></i>
+                                    <div
+                                        class="position-absolute"
+                                        style="top: -7px; left: 20px"
+                                    >
+                                        <span
+                                            ><i
+                                                class="fa fa-comment-dots text-secondary"
+                                            ></i
+                                        ></span>
+                                    </div>
+                                </a>
+                            </div>
+                            <div
+                                class="d-flex flex-column pe-3 border-end border-primary"
+                            >
+                                <span class="text-primary">Есть вопросы?</span>
+                                <a href="tel:77775259885"
+                                    ><span class="text-secondary"
+                                        >Звоните: +77775259885</span
+                                    ></a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+        <main>
+            <article class="container additional-wrapper">
+                <div class="page__content" style="padding: 20px 0px">
+                    <h1>Политика использования файлов cookie</h1>
+
+                    <h2>1. Что такое файлы cookie?</h2>
+                    <p>
+                        Файлы cookie — это небольшие текстовые файлы, которые
+                        сохраняются на вашем устройстве при посещении нашей
+                        платформы. Они позволяют нам улучшать пользовательский
+                        опыт, анализировать поведение посетителей и
+                        предоставлять персонализированный контент, связанный с
+                        графическим дизайном, UI/UX, Figma, интерфейсами,
+                        брендингом и дизайн-трендами.
+                    </p>
+
+                    <h2>2. Как мы используем файлы cookie</h2>
+                    <p>Мы используем cookie-файлы для того, чтобы:</p>
+
+                    <ul>
+                        <li>
+                            Сохранять пользовательские настройки при работе с
+                            шаблонами и курсами;
+                        </li>
+                        <li>
+                            Собирать статистику об использовании статей, галерей
+                            и обучающих материалов;
+                        </li>
+                        <li>
+                            Анализировать интерес к темам, связанным с UI/UX,
+                            графическим дизайном и трендами в дизайне;
+                        </li>
+                        <li>
+                            Улучшать интерфейс платформы и взаимодействие
+                            пользователей с контентом в Figma и других
+                            инструментах;
+                        </li>
+                        <li>
+                            Обеспечивать безопасность и стабильность работы
+                            сервиса.
+                        </li>
+                    </ul>
+
+                    <h2>3. Типы используемых cookie</h2>
+                    <p>
+                        <strong>Необходимые:</strong> обеспечивают корректную
+                        работу платформы.<br />
+                        <strong>Аналитические:</strong> помогают понять, как
+                        пользователи взаимодействуют с контентом (например,
+                        курсами и шаблонами).<br />
+                        <strong>Функциональные:</strong> позволяют запоминать
+                        предпочтения, связанные с графическим дизайном и
+                        пользовательским интерфейсом.<br />
+                        <strong>Маркетинговые:</strong> применяются для показа
+                        релевантных материалов и советов по дизайну.
+                    </p>
+
+                    <h2>4. Управление cookie</h2>
+                    <p>
+                        Вы можете изменить настройки cookie в своем браузере в
+                        любое время. Отключение некоторых файлов cookie может
+                        повлиять на ваш опыт использования платформы — например,
+                        доступ к персонализированным рекомендациям по дизайну
+                        или сохранение прогресса в обучении может быть
+                        ограничен.
+                    </p>
+
+                    <h2>5. Сторонние сервисы</h2>
+                    <p>
+                        Мы можем использовать сторонние аналитические
+                        инструменты для отслеживания тенденций и поведения
+                        пользователей, чтобы улучшать наш контент по таким
+                        темам, как интерфейсы, Figma и брендинг. Эти сторонние
+                        сервисы также могут устанавливать файлы cookie от своего
+                        имени.
+                    </p>
+
+                    <h2>6. Изменения в политике</h2>
+                    <p>
+                        Мы можем обновлять данную Политику использования файлов
+                        cookie в любое время. Все изменения вступают в силу с
+                        момента публикации на этой странице. Рекомендуем
+                        регулярно проверять её на предмет обновлений.
+                    </p>
+
+                    <h2>7. Контакты</h2>
+                    <p>
+                        Если у вас есть вопросы о нашей политике использования
+                        cookie, свяжитесь с нами по адресу:
+                        design_pro@gmail.com.
+                    </p>
+
+                    <p>
+                        Продолжая использовать нашу платформу, вы соглашаетесь с
+                        использованием файлов cookie в соответствии с данной
+                        политикой.
+                    </p>
+                </div>
+            </article>
+        </main>
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid footer py-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="footer-item">
+                            <h2 class="fw-bold mb-3">
+                                <span class="text-primary mb-0">Дизайн</span
+                                ><span class="text-secondary">Про</span>
+                            </h2>
+                            <p class="mb-4">
+                                Спасибо, что посетили наш ресурс. Наша миссия —
+                                предоставить дизайнерам все необходимые
+                                инструменты и знания для профессионального
+                                роста. Мы делаем акцент на современных подходах
+                                в UI/UX, Figma, графическом дизайне и брендинге,
+                                чтобы вы могли создавать уникальные и
+                                функциональные интерфейсы.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="footer-item">
+                            <div
+                                class="d-flex flex-column p-4 ps-5 text-dark border border-primary"
+                                style="border-radius: 0"
+                            >
+                                <p>Понедельник: 8:00 – 17:00</p>
+                                <p>Вторник: 8:00 – 17:00</p>
+                                <p>Среда: 8:00 – 17:00</p>
+                                <p>Четверг: 8:00 – 17:00</p>
+                                <p>Пятница: 8:00 – 17:00</p>
+                                <p>Суббота: 8:00 – 17:00</p>
+                                <p class="mb-0">Воскресенье: выходной</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="footer-item">
+                            <h4
+                                class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius"
+                            >
+                                НАШ АДРЕС
+                            </h4>
+                            <div class="d-flex flex-column align-items-start">
+                                <a href="" class="text-body mb-4"
+                                    ><i
+                                        class="fa fa-map-marker-alt text-primary me-3"
+                                    ></i>
+                                    ул. Зенкова 24, Алматы 050000
+                                </a>
+                                <a href="tel:+1000000000" class="text-body mb-4"
+                                    ><i
+                                        class="fa fa-phone-alt text-primary me-3"
+                                    ></i
+                                    >+77775259885</a
+                                >
+                                <a
+                                    href="mailto:info@businessconsult.com"
+                                    class="text-body"
+                                    ><i
+                                        class="fa fa-envelope text-primary me-3"
+                                    ></i>
+                                    design_pro@gmail.com</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4 col-xl-3">
+                        <div class="footer-item">
+                            <h4
+                                class="text-primary mb-4 border-bottom border-primary border-2 d-inline-block p-2 title-border-radius"
+                            >
+                                ССЫЛКИ
+                            </h4>
+                            <div class="d-flex flex-column align-items-start">
+                                <a href="index.html" class="text-body mb-4">
+                                    Главная
+                                </a>
+                                <a
+                                    href="terms-of-use.html"
+                                    class="text-body mb-4"
+                                    >Условия использования</a
+                                >
+                                <a href="privacy-policy.html" class="text-body"
+                                    >Политика конфиденциальности
+                                </a>
+                                <a href="cookie-policy.html" class="text-body"
+                                    >Политика использования файлов cookie
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">
+                    Согласие на использование cookie
+                </h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    Этот сайт использует cookie-файлы для обеспечения наилучшего
+                    пользовательского опыта и более релевантного контента.
+                    <a href="cookie-policy.html">Подробнее...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Принять</button>
+                <button class="cookie-button" id="declineBtn">Отклонить</button>
+            </div>
+        </div>
+
+        <!-- Back to Top -->
+        <a
+            href="#"
+            class="btn btn-primary border-3 border-primary rounded-circle back-to-top"
+            ><i class="fa fa-arrow-up"></i
+        ></a>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
